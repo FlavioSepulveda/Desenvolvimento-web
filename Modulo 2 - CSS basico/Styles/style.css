@@ -1,0 +1,92 @@
+/*
+    4.3 - CSS externo.
+*/
+/* 
+  Classes - Servem para conjuntos de elementos.
+  IDS - São usados para Itens unicos em nosso layout.
+*/
+body {
+  padding-bottom: 500px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  color: green;
+  text-align: center;
+}
+
+.hd {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28;
+  text-align: center;
+  color: black;
+}
+
+#ID1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 25;
+  text-align: center;
+  color: red;
+}
+
+.color-name {
+  color: crimson;
+}
+
+.color-name-hex {
+  color: #55a398;
+}
+
+.color-name-hex-2 {
+  color: #ff6600;
+}
+
+.cores-rgb {
+  color: rgb(255, 30, 45);
+}
+/* Rgba - refere-se ao alpha da imagem. */
+.cores-rgba {
+  color: rgba(255, 30, 45, 1);
+}
+
+.cores-hsl{
+  color: hsl(300, 44%, 55%);
+}
+
+.fundo{
+    background-color: red;
+    color: rgb(245, 100, 100);
+}
+/* RGBa com opacidade */
+.Opacity{
+    background-color:  rgba(255, 30, 45, 0.575);
+    color: #000;
+}
+
+/* Background image */
+/* .bg-image{
+  background-image: url("../img/spr_bloco_3.png");
+  padding: 10px;
+  color: red;
+ 
+} */
+/* Centralizando a imagem de background */
+.bg-image-2,
+.bg-image{
+  height: 400px;
+  width: 400px;
+  background-image: url(../img/spr_bloco_3.png);
+  text-align: center;
+  /* background-position: center;
+  background-size: cover; */
+}
+/* Altura e LArgura no css */
+.altura-x-largura{
+  height: 100px;
+  width: 100px;
+  /* Padding - é o respiro; */
+  padding: 10px;
+  color:#000;
+}

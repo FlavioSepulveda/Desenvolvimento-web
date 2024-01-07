@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 4.2 - CSS Externo. -->
+    <link rel="stylesheet" href="Styles/style.css" />
+
+    <!-- 6.2 - Multiplas paginas de estilo -->
+    <link rel="stylesheet" href="Styles/lists.css" />
+
+    <!-- 3.2 - CSS internal exemple. -->
+    <style>
+      p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        color: goldenrod;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 1- mudando a cor de um elemento -->
+    <!-- É preciso ter um seletor, fazer inline é feio. -->
+    <h1 style="color: blue">Estilização em linha de elemento unico.</h1>
+
+    <!-- 2- Multiplos parametros no inline -->
+    <h2 style="color: blue; text-align: center">
+      Este foi estilizado com mais de um atributo.
+    </h2>
+
+    <!-- 3.1 - Css interno -->
+    <p>Este é um paragrafo que foi estilizado com internal css.</p>
+    <p>Este é um paragrafo que foi estilizado com internal css.</p>
+    <p>Este é um paragrafo que foi estilizado com internal css.</p>
+
+    <!-- 4.1 - CSS externo -->
+    <h3>Este é um texto que foi estilizado com external css.</h3>
+
+    <!-- 5 - Ordem de geração -->
+    <p style="color: red">
+      Este é um paragrafo que foi estilizado pela ordem de geração.
+    </p>
+
+    <!-- 6 - É possivel ter mais de uma folha de estilo. -->
+    <ul>
+      <li>uva</li>
+      <li>banana</li>
+      <li>maça</li>
+    </ul>
+
+    <!-- 7 - comentarios em css -->
+    <!-- /**/ -->
+
+    <!-- 8 - classes e IDS -->
+    <h1 class="hd">Classes CSS</h1>
+
+    <!-- 9 - Id's CSS -->
+    <h1 id="ID1">ID CSS</h1>
+
+    <!-- 10 - ordem De prioridade -->
+    <h1 class="hd" id="ID1">Ordem de prioridade</h1>
+
+    <!-- 11 - Nome das cores -->
+    <p class="color-name"> Nome das cores.</p>
+    <!-- 11.1 - Nome das cores - Hex -->
+    <p class="color-name-hex"> Nome das cores.</p>
+    <p class="color-name-hex-2"> Nome das cores.</p>
+
+    <!-- Da pra criar um css digitando "nomedatag + . + seletor" -->
+    
+    <!-- 11.2 - cores em RGB -->
+    <p class="cores-rgb">Cores em RGB</p>
+    <!-- 11.2 - cores em RGBa -->
+    <p class="cores-rgba">Cores em RGB</p>
+    <!-- 11.2 - cores em HSL -->
+    <p class="cores-hsl">Cores em RGB</p>
+
+    <!-- 12 - Background color -->
+    <div class="fundo">
+      <h1>Background color</h1>
+    </div>
+
+    <!-- 13 - Opacity -->
+    <div class="Opacity">
+      <h1>Opacidade</h1>
+    </div>
+
+    <!-- 14 - Imagem de background -->
+    <h1 class="bg-image">Teste</h1>
+
+    <!-- 15 - Imagem de background -->
+    <h1 class="bg-image-2">Teste</h1>
+
+    <!-- 16 - BoxModel -->
+    <!-- 1 - margin -->
+    <!-- 2 - border -->
+    <!-- 3 - padding -->
+
+    <!-- 17 - Largura e altura no CSS -->
+    <div class="altura-x-largura">
+      <h1 >Teste</h1>
+    </div>
+  </body>
+</html>
